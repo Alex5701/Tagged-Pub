@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/artworkview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/filepathview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/titleview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/artistview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/albumview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/genreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/lyricsview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/titleedit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/new_title"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/artistedit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/new_artist"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/albumedit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/new_album"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/genreedit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/new_genre"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/lyricsedit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/new_lyrics"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <Button
+            android:id="@+id/savebutton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/save_changes"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:orientation="horizontal"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/song_artwork"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:adjustViewBounds="true"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="350sp"
+        android:layout_height="30sp"
+        android:adjustViewBounds="true"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

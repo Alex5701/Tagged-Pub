@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tagged</string>
+    <string name="scanlibrary">Scan Library</string>
+    <string name="request_metadata">Request Metadata</string>
+    <string name="view_metadata">View Metadata</string>
+    <string name="change_metadata">Change Metadata</string>
+    <string name="save_changes">SAVE CHANGES!</string>
+    <string name="new_title">Replace title..</string>
+    <string name="new_artist">Replace artist..</string>
+    <string name="new_album">Replace album..</string>
+    <string name="new_genre">Replace genre..</string>
+    <string name="new_lyrics">Replace lyrics..</string>
+    <string name="save_metadata">Save selected metadata!</string>
+    <string name="recycler_header">Pulling metadata… select from list below</string>
+    <string name="save_selected_changes">Save selected changes!!</string>
+    <string name="save_this_set">save this set</string>
+</resources>
